@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Thivakaran - Resume</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #e9e9e9;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #222;
+        }
+
+        .resume {
+            width: 820px;
+            min-height: 1120px;
+            margin: 30px auto;
+            padding: 45px 55px;
+            background: white;
+            box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .header {
+            text-align: center;
+            padding-bottom: 18px;
+            border-bottom: 2px solid #333;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 34px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .header p {
+            margin: 8px 0 0;
+            font-size: 14px;
+            color: #444;
+        }
+
+        .section {
+            margin-top: 25px;
+        }
+
+        .section-title {
+            font-size: 17px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 1px solid #555;
+            padding-bottom: 6px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            font-size: 14.5px;
+            line-height: 1.65;
+            margin: 0;
+            text-align: justify;
+        }
+
+        ul {
+            margin: 6px 0 0 20px;
+            padding: 0;
+        }
+
+        li {
+            font-size: 14.5px;
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 5px;
+            font-size: 14px;
+        }
+
+        th,
+        td {
+            border: 1px solid #777;
+            padding: 10px;
+        }
+
+        th {
+            text-align: center;
+            font-weight: bold;
+            background: #f5f5f5;
+        }
+
+        td:first-child {
+            text-align: center;
+            width: 20%;
+        }
+
+        td:last-child {
+            text-align: center;
+            width: 20%;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px 45px;
+            margin-top: 5px;
+        }
+
+        .skill {
+            width: 40%;
+            font-size: 14.5px;
+        }
+
+        .skill::before {
+            content: "• ";
+        }
+
+        .strengths {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 40px;
+        }
+
+        .strength {
+            width: 42%;
+            font-size: 14.5px;
+            line-height: 1.7;
+        }
+
+        .strength::before {
+            content: "• ";
+        }
+
+        .declaration {
+            margin-top: 30px;
+        }
+
+        .signature {
+            margin-top: 25px;
+            font-size: 14.5px;
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+
+            .resume {
+                width: 100%;
+                min-height: auto;
+                margin: 0;
+                padding: 40px 50px;
+                box-shadow: none;
+            }
+        }
+
+        @media (max-width: 850px) {
+            .resume {
+                width: 94%;
+                padding: 35px;
+            }
+        }
+
+        @media (max-width: 550px) {
+            .resume {
+                width: 100%;
+                margin: 0;
+                padding: 25px;
+            }
+
+            .skills,
+            .strengths {
+                display: block;
+            }
+
+            .skill,
+            .strength {
+                width: 100%;
+                margin-bottom: 7px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="resume">
+
+        <!-- Header -->
+
+        <div class="header">
+
+            <h1>THIVAKARAN</h1>
+
+            <p>
+               Location: Hosur, Tamil Nadu
+                &nbsp; | &nbsp;
+                Phone: 8148144805
+                &nbsp; | &nbsp;
+                Email: thivakaranr2006@gmail.com
+            </p>
+
+        </div>
+
+
+        <!-- Career Objective -->
+
+        <div class="section">
+
+            <div class="section-title">
+                Career Objective
+            </div>
+
+            <p>
+                To start my professional career in a reputed organization
+                where I can use my knowledge of programming and develop my
+                technical skills through practical experience. I am interested
+                in learning new technologies, taking on challenging tasks and
+                contributing positively to the organization while building a
+                successful career.
+            </p>
+
+        </div>
+
+
+        <!-- Educational Qualification -->
+
+        <div class="section">
+
+            <div class="section-title">
+                Educational Qualification
+            </div>
+
+            <table>
+
+                <tr>
+                    <th>Qualification</th>
+                    <th>Institution</th>
+                    <th>Score</th>
+                </tr>
+
+                <tr>
+                    <td>Bachelor's Degree</td>
+
+                    <td>
+                        V.S.B College of Engineering Technical Campus
+                        <br>
+                        <strong>Currently Pursuing</strong>
+                    </td>
+
+                    <td>
+                        CGPA: 7.5
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>12th</td>
+                    <td>Asian Christian Academy</td>
+                    <td>62%</td>
+                </tr>
+
+                <tr>
+                    <td>10th</td>
+                    <td>Asian Christian Academy</td>
+                    <td>62%</td>
+                </tr>
+
+            </table>
+
+        </div>
+
+
+        <!-- Technical Skills -->
+
+        <div class="section">
+
+            <div class="section-title">
+                Technical Skills
+            </div>
+
+            <div class="skills">
+
+                <div class="skill">Python</div>
+
+                <div class="skill">C Programming</div>
+
+                <div class="skill">C++ Programming</div>
+
+                <div class="skill">Basic Programming Concepts</div>
+
+                <div class="skill">Problem Solving</div>
+
+                <div class="skill">Logical Thinking</div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Certifications -->
+
+        <div class="section">
+
+            <div class="section-title">
+                Certifications
+            </div>
+
+            <ul>
+
+                <li>
+                    Infosys Springboard - Java Course
+                </li>
+
+                <li>
+                    Infosys Springboard - Python Course
+                </li>
+
+                <li>
+                    Infosys Springboard - C Course
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- Areas of Interest -->
+
+        <div class="section">
+
+            <div class="section-title">
+                Areas of Interest
+            </div>
+
+            <ul>
+
+                <li>Software Development</li>
+
+                <li>Programming and Application Development</li>
+
+                <li>Learning New Technologies</li>
+
+                <li>Problem Solving and Logical Thinking</li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- Personal Strengths -->
+
+        <div class="section">
+
+            <div class="section-title">
+                Personal Strengths
+            </div>
+
+            <div class="strengths">
+
+                <div class="strength">
+                    Quick learner
+                </div>
+
+                <div class="strength">
+                    Positive attitude
+                </div>
+
+                <div class="strength">
+                    Self-motivated
+                </div>
+
+                <div class="strength">
+                    Good problem-solving ability
+                </div>
+
+                <div class="strength">
+                    Willingness to learn
+                </div>
+
+                <div class="strength">
+                    Ability to work responsibly
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Languages -->
+
+        <div class="section">
+
+            <div class="section-title">
+                Languages Known
+            </div>
+
+            <ul>
+
+                <li>English</li>
+
+                <li>Tamil</li>
+
+                <li>Kannada</li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- Declaration -->
+
+        <div class="section declaration">
+
+            <div class="section-title">
+                Declaration
+            </div>
+
+            <p>
+                I hereby declare that the information provided above is true
+                and correct to the best of my knowledge and belief.
+            </p>
+
+            <div class="signature">
+                <strong>Signature:</strong>
+                Thivakaran
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+```
